@@ -1,7 +1,7 @@
 document.getElementById('inuButton').addEventListener('click', fetchData);
 
 function fetchData() {
-    fetch('http://localhost:3000/web')
+    fetch('http://localhost:3000/web') // json-server의 주소입니다
         .then(response => {
             return response.json();
         })
